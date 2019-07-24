@@ -1,0 +1,25 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <div><button mat-icon-button (click)="sidenav.toggle()"><i class="fas fa-bars"></i></button></div>
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Products</a></div>
+        <div><a href="#">Perfect Pricing</a></div>
+        <div><a href="#">Testimonials</a></div>
+        <div><a href="#">Profit Gap Analysis</a></div>
+        <div><a href="#">Increased Sales And Traffic</a></div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+       <mat-toolbar>
+            <div class="container" fxHide.lt-md>
+                <div class="contained"><a href="#">Home</a></div>
+                <div class="contained"><a href="#">Products</a></div>
+                <div class="contained"><a href="#">Perfect Pricing</a></div>
+                <div class="contained"><a href="#">Testimonials</a></div>
+                <div class="contained"><a href="#">Profit Gap Analysis</a></div>
+                <div class="contained"><a href="#">Increased Sales And Traffic</a></div>
+                <div id="search-icon"><a href="#"><img src="../../assets/images/search-icon.png" alt=""></a></div>
+            </div>
+                <div id="collapsed" fxHide.gt-sm><button mat-icon-button (click)="sidenav.toggle()"><i class="fas fa-bars"></i></button></div>
+       </mat-toolbar> 
+    </mat-sidenav-content>
+</mat-sidenav-container>

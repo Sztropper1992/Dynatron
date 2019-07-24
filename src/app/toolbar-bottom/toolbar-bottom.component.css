@@ -1,0 +1,106 @@
+mat-toolbar{
+    background: linear-gradient(rgba(0,0,0,.75),
+                                rgba(0,0,0,.85)),
+                                url("https://images.idgesg.net/images/article/2018/11/macbook-air-2108-hero2-100779122-large.jpg") center no-repeat;
+}
+
+mat-toolbar-row{
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+mat-toolbar-row:nth-child(3){
+    background-image: url("../../assets/images/toolbar-background.png");
+}
+
+mat-toolbar-row a{
+    color: rgba(255,255,255,.75);
+}
+
+button{
+    color: white;
+    font-family: "Open Sans", sans-serif; 
+}
+
+#first-button{
+    color: rgba(255,255,255,.5);
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+button:not(:first-child){
+    font-weight: 700;
+}
+
+
+button:first-child img{
+    margin-right: 4px;
+}
+
+button:nth-child(2){
+    font-weight: 700;
+}
+
+img{
+    margin: 0 auto;
+}
+
+.mat-raised-button{
+    padding-left: 0;
+    border-radius: 25px;
+    margin: 0 10px 10px 0;
+}
+
+.mat-mini-fab{
+    margin-right: 3px;
+    color: white;
+    justify-content: center;
+}
+
+#person{
+    margin-right: 0;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-light-black{
+    background-color: rgba(0,0,0,.9);
+}
+
+.bg-blue{
+    background-color: #12C8F9;
+}
+
+.bg-light-blue{
+    background-color: #A1E7FA;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+#last-row{
+    background-color: #191919;
+}
+
+#copyright-row{
+    color: white;
+    background-color: #33A2FF;
+}
+
+#copyright{
+    color: rgba(255,255,255,.5);
+}
+
+#company-name{
+    font-weight: 700;
+}
+
+.border{
+    border: 1px solid rgba(255,255,255,.5);
+}
