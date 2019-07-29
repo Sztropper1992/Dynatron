@@ -66,14 +66,14 @@
        <div class="container">
        <table cellspacing=0>
           <tr id="header-row">
-              <th>Manufacturer</th>
+              <th id="first-th">Manufacturer</th>
               <th>State</th>
               <th>Starting <br>Labor Rate</th>
               <th>Actual <br>Approved Rate</th>
               <th>Increase <br>Labor Rate</th>
               <th>12 Month <br>Value Of Increase</th>
           </tr>
-          <tr>
+          <tr class="middle-cell">
               <td>Lexus</td>
               <td>CA</td>
               <td>$132.00</td>
@@ -81,7 +81,7 @@
               <td>$18.00</td>
               <td>$289.00</td>
           </tr>
-          <tr>
+          <tr class="middle-cell">
                 <td>Lexus</td>
                 <td>CA</td>
                 <td>$132.00</td>
@@ -89,7 +89,7 @@
                 <td>$18.00</td>
                 <td>$289.00</td>
             </tr> 
-            <tr>
+            <tr class="middle-cell">
                      <td>Lexus</td>
                     <td>CA</td>
                     <td>$132.00</td>
@@ -97,7 +97,7 @@
                     <td>$18.00</td>
                     <td>$289.00</td>
             </tr>
-            <tr>
+            <tr class="middle-cell">
                     <td>Lexus</td>
                     <td>CA</td>
                     <td>$132.00</td>
@@ -105,7 +105,7 @@
                     <td>$18.00</td>
                     <td>$289.00</td>
                 </tr>
-                <tr>
+                <tr class="middle-cell">
                         <td>Lexus</td>
                         <td>CA</td>
                         <td>$132.00</td>
@@ -113,7 +113,7 @@
                         <td>$18.00</td>
                         <td>$289.00</td>
                     </tr>
-                    <tr>
+                    <tr class="middle-cell">
                             <td>Lexus</td>
                             <td>CA</td>
                             <td>$132.00</td>
@@ -121,7 +121,7 @@
                             <td>$18.00</td>
                             <td>$289.00</td>
                         </tr>
-                        <tr>
+                        <tr class="middle-cell">
                                 <td>Lexus</td>
                                 <td>CA</td>
                                 <td>$132.00</td>
@@ -129,13 +129,21 @@
                                 <td>$18.00</td>
                                 <td>$289.00</td>
                             </tr>
-                            <tr>
+                            <tr class="middle-cell">
                                     <td>Lexus</td>
                                     <td>CA</td>
                                     <td>$132.00</td>
                                     <td>$150</td>
                                     <td>$18.00</td>
                                     <td>$289.00</td>
+                                </tr>
+                                <tr id="bottom-row">
+                                       <td>Average Labor Increase</td>
+                                       <td></td>
+                                       <td></td> 
+                                       <td></td>
+                                       <td>$17.54</td>
+                                       <td>$105.558.66</td>
                                 </tr> 
        </table>
     </div>
@@ -168,8 +176,8 @@
            </div>
            </div>
         </div>
-        <div class="inline-flex-column skew bg-blue w-50 align-center">
-               <div  class="mw-50 reverse-skew">
+        <div id="test" class="inline-flex-column skew bg-blue w-50 align-center">
+               <div id="inside-form-container" class="mw-50 reverse-skew">
                    <strong class="yellow">Contact Us</strong>
                    <p class="white">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                    <form class="inline-flex-column align-start" action="#">
@@ -177,7 +185,7 @@
                       <input placeholder="Email" class="input">
                       <input placeholder="Phone" class="input">
                       <textarea placeholder="Message" id="textarea"></textarea>
-                      <button class="bg-orange white" mat-button>submit</button>
+                      <button id="orange-button" class="bg-orange white" mat-button>submit</button>
                    </form>
                </div>
         </div>       
