@@ -12,12 +12,12 @@
        <mat-toolbar>
             <div class="container" fxHide.lt-md>
                 <div class="contained"><a href="#">Home</a></div>
-                <div class="contained"><a href="#">Products</a></div>
+                <div class="contained"><a href="#">Products</a><img id="down-arrow" src="../../assets/images/down-arrow.png" alt=""></div>
                 <div class="contained"><a href="#">Perfect Pricing</a></div>
                 <div class="contained"><a href="#">Testimonials</a></div>
                 <div class="contained"><a href="#">Profit Gap Analysis</a></div>
                 <div class="contained"><a href="#">Increased Sales And Traffic</a></div>
-                <div id="search-icon"><a href="#"><img src="../../assets/images/search-icon.png" alt=""></a></div>
+                <button id="search-icon" mat-mini-fab><a href="#"><img id="search-icon-img" src="../../assets/images/search-icon.png" alt=""></a></button>
             </div>
                 <div id="collapsed" fxHide.gt-sm><button mat-icon-button (click)="sidenav.toggle()"><i class="fas fa-bars"></i></button></div>
        </mat-toolbar> 

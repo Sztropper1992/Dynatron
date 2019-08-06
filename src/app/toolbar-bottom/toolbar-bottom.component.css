@@ -1,7 +1,8 @@
 mat-toolbar{
-    background: linear-gradient(rgba(0,0,0,.75),
-                                rgba(0,0,0,.85)),
-                                url("https://images.idgesg.net/images/article/2018/11/macbook-air-2108-hero2-100779122-large.jpg") center no-repeat;
+    background-image: url("../../assets/images/toolbar-bottom-computer-bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
 }
 
 mat-toolbar-row{
@@ -9,12 +10,22 @@ mat-toolbar-row{
     font-family: "Open Sans", sans-serif;
 }
 
+mat-toolbar-row:first-child{
+    margin-bottom: 20px;
+}
+
+mat-toolbar-row:nth-child(2){
+    margin-bottom: 25px;
+}
+
 mat-toolbar-row:nth-child(3){
-    background-image: url("../../assets/images/toolbar-background.png");
+    background-image: url("../../assets/images/bottom-toolbar-row-background.png");
 }
 
 mat-toolbar-row a{
-    color: rgba(255,255,255,.75);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
 }
 
 button{
@@ -23,14 +34,65 @@ button{
 }
 
 #first-button{
-    color: rgba(255,255,255,.5);
-    padding-left: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    color: #ffffff;;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    background-color: transparent;
+    border: 1px solid #3d414a;
+}
+
+#second-button{
+    border: 1px solid #3d414a;
+    padding-left: 16px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: transparent;
+}
+
+#phone-image{
+    margin-right: 5px;
+    margin-bottom: 3.5px;
+}
+
+#third-button{
+    background-color: #11b7ee;
+    line-height: 48px;
+    padding-right: 20px;
+}
+
+#fourth-button{
+    background-color: #11b7ee;
+    line-height: 48px;
+    padding-right: 20px;
+}
+
+#fourth-button .mat-mini-fab{
+    background-color: #4ac7f2;
+    height: 48px;
+    width: 48px;
+    margin-right: 10px;
+}
+
+#fourth-button .mat-mini-fab img{
+    margin-right: 0;
+}
+
+#third-button .mat-mini-fab img{
+    margin: 0;
+}
+
+#third-button .mat-mini-fab{
+    height: 48px;
+    width: 48px;
+    margin-right: 10px;
 }
 
 button:not(:first-child){
     font-weight: 700;
+    margin-left: 15px;
 }
 
 
@@ -62,6 +124,10 @@ img{
     margin-right: 0;
 }
 
+#mail-img{
+    background-color: #4ac7f2;
+}
+
 .bg-black{
     background-color: black;
 }
@@ -85,7 +151,7 @@ a{
 }
 
 #last-row{
-    background-color: #191919;
+    /* background-color: #191919; */
 }
 
 #copyright-row{
@@ -94,7 +160,7 @@ a{
 }
 
 #copyright{
-    color: rgba(255,255,255,.5);
+    color: #d4e9f5;
 }
 
 #company-name{
